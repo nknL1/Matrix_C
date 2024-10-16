@@ -18,3 +18,28 @@ Implementation of functions for working with matrixes.
 | `int s21_inverse_matrix(matrix_t *A, matrix_t *result)` | Calculates and returns the inverse matrix |
 
 A Makefile is provided for the project to build the library and tests (with targets all, clean, test, s21_matrix.a, gcov_report);
+## Run Locally
+
+1. Clone the project
+
+```bash
+  git clone https://github.com/nknL1/Matrix_C.git
+```
+
+2. Go to the project directory
+
+```bash
+  cd Matrix_C
+```
+
+3. Go to the src folder
+
+```bash
+  cd src
+```
+
+4. Run make for build
+
+```bash
+  make all
+```
